@@ -1,0 +1,871 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+section.home{
+    background: rgb(241,243,245);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    padding-left: 3%;
+    padding-right:3%;
+}
+
+section.impact {
+    height: 450px;
+}
+
+section.history{
+    background: rgb(241,243,245);
+    height: 800px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right: 0px;
+}
+
+section.team {
+    height: 1200px;
+}
+
+section.subscribe{
+    height: 75px; 
+    background: rgb(186,197,207);
+}
+
+footer {
+    height: 200px;
+    background: rgb(145,156,162);
+}
+
+header ul {
+    width:100%;
+    padding-left: 1%;
+    padding-right:2%;
+}
+header li {
+    list-style-type: none;
+    float: left;
+    width: 11%;
+    margin-left: 1.5%;
+    text-align: center;
+    padding:.5%;
+    font-size: 1.5rem;
+}
+
+header li.button {
+    background: rgb(52,57,65);
+    color: white;
+}
+
+header li a {
+    padding-right: 1%;
+    padding-left:1%;
+}
+
+section#welcome {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+
+section#homeimg {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+#welcome > img {
+    width:50%;
+    margin-top: 5%;
+    filter: grayscale(100%);
+}
+
+h1{
+    font-size: 4.5rem;
+    margin-bottom: 2%;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: lighter;
+    
+}
+
+.home label {
+    width:100%;
+    font-size: 2rem;
+}
+
+.welcome input#email {
+    width: 80%;
+    height: 2rem;
+    float: left;
+}
+
+
+input#submit {
+ width:20%;
+ height:2rem;
+ float: left;
+}
+
+section.impact{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.impact h2 {
+    width: 100%;
+    text-align:center;
+    font-size: 5rem;
+}
+
+section.impact-points{
+    font-size: 3rem;
+    width: 100%;
+}
+
+section.impact-points section {
+    width:50%;
+    padding: 1%;
+    float: left;
+}
+
+section.impact-points section+section {
+    float: left;
+}
+
+section.impact > p {
+    text-align: center;
+    color: gray;
+    font-size: 2rem;
+    width: 100%;
+}
+.h-content{
+    width:60%;
+    font-size: 2.5rem;
+    margin-right: 5%;
+
+}
+
+section.h-imgs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+figure {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+figure > img {
+    width: 100%;
+    margin-top:10%;
+
+}
+figcaption{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+.h-content h3 {
+    font-size: 3rem;
+}
+section.team h3{
+    text-align: center;
+    font-size: 3rem;
+    margin-top:3%;
+}
+
+section.profile {
+    border: 1px solid gray;
+    margin-top: 3%;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    clear:both;
+    display: flex;
+    align-items: center;
+}
+
+section.profile > img {
+    float:left;
+    width: 30%;
+    margin-right: 5%;
+    
+}
+
+h4 {
+    font-size: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: 1.5%;;
+}
+
+.profile p {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    line-height: 5rem;
+    margin-top:1%;
+}
+
+section.p1, section.p2{
+    width:50%;
+    font-size: 2rem;
+    line-height: 4rem;
+    padding-right: 2%;
+   
+}
+
+section.partners{
+    padding-left: 5%;
+    padding-right:5%;
+    padding-top:3%;
+    display:flex;
+    justify-content: center;
+
+}
+
+.profile > section.about{
+    display:flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.partners p {
+    margin-top:0px;
+}
+
+section.subscribe {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    margin-top: 5%;
+
+}
+
+section.subscribe label{
+    font-size: 4rem;
+    color: white;
+    width: 50%;
+    float:left;
+}
+
+section.subscribe section {
+    width: 50%;
+    float:left;
+}
+section.subscribe input#email {
+    width:75%;
+    height: 50px;
+}
+
+section.subscribe input#submit {
+    width: 20%;
+    height:50px;
+}
+
+section.subscribe input#submit::placeholder {
+    font-size: 2.5rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left:5%;
+    padding-right: 5%;
+}
+
+section.f-nav {
+    width:100%;
+    margin-top:1%;
+}
+.f-nav span {
+    float: left;
+    width:50%;
+    font-size: 2rem;
+    padding-left:5%;
+}
+
+.f-nav ul {
+    width: 50%;
+    float: left;
+}
+.f-nav li {
+    float: left;
+    list-style-type:none;
+    font-size: 2rem;
+    width:33.33%;
+
+}
+
+f-nav a  {
+    color:white;
+    font-size: 2rem;
+}
+
+.f-nav-p1 {
+    width:100%;
+}
+
+f-nav-p1 li{
+    list-style-type: none;
+    color: white;
+    float: left;
+}
+section.footernav {
+    display: flex;
+    justify-content: center;
+    width:100%;
+    font-size: 2rem;
+}
+
+.footernav section {
+    width: 14.5%;
+}
+
+.footernav li{
+    list-style-type: none;
+}
+
+
+@media screen and (max-width:1650px){
+    html {
+        font-size: 60%;
+    }
+    
+}
+
+@media screen and (max-width: 1400px){
+    section.p1, section.p2{
+        width:100%;
+        font-size: 2rem;
+        line-height: 4rem;
+        padding-right: 2%;
+       
+    }
+
+    section.partners{
+        padding-left: 5%;
+        padding-right:5%;
+        padding-top:3%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.team {
+        height: 1300px;
+    }
+
+}
+
+@media screen and (max-width: 1300px){
+
+    section.team {
+        height: 1400px;
+    }
+    .h-content{
+        width:60%;
+        font-size: 2.5rem;
+        margin-right: 3.5%;
+    
+    }
+
+}
+
+@media screen and (max-width: 1220px){
+    html {
+        font-size: 58%;
+    }
+    .h-content{
+        width:60%;
+        font-size: 2.5rem;
+        margin-right: 2%;
+    
+    }
+}
+
+@media screen and (max-width: 1120px){
+    html {
+        font-size: 56%;
+    }
+    .h-content{
+        width:100%;
+        font-size: 2.5rem;
+        margin-right: 1.5%;
+        padding-left: 5%;
+        padding-right:5%;
+    
+    }
+    section.home{
+        background: rgb(241,243,245);
+        padding-left: 3%;
+        padding-right:3%;
+        height: 450px;
+    }
+
+    #homeimg img{
+        width: 100%;
+    }
+
+    section.h-imgs{ 
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: row;
+    }
+
+    section.history-imgs{
+        width:100%;
+    }
+
+    section.history{
+        background: rgb(241,243,245);
+        height: 1000px;
+        display:flex;
+        align-items:center;
+        margin-right: 0px;
+        flex-direction: column;
+    }
+    section.impact {
+        height: 550px;
+    }
+
+    section.home{
+        background: rgb(241,243,245);
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        padding-left: 3%;
+        padding-right:3%;
+    }
+
+    h1{
+        font-size: 4.5rem;
+    }
+    
+    h2 {
+        font-size: 3.5rem;
+        font-weight: lighter;
+        
+    }
+    
+    .home label {
+        width:100%;
+        font-size: 2rem;
+    }
+    
+    .welcome input#email {
+        width: 75%;
+        height: 2rem;
+    }
+    
+    
+    input#submit {
+     width:20%;
+     height:2rem;
+    }
+
+    section#welcome {
+        width:50%;
+    }
+
+    section#homeimg {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 990px){
+    html {
+        font-size: 54%;
+    }
+
+    #homeimg img{
+        width: 100%;
+    }
+
+    section.home{
+        background: rgb(241,243,245);
+        height: 470px;
+        display: flex;
+        justify-content: center;
+        padding-left: 3%;
+        padding-right:3%;
+    }
+
+    section.impact-points{
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    section.impact-points section {
+        width:100%;
+        padding: 1%;
+        text-align: center;
+    }
+
+    section.impact-points section+section {
+        width:100%;
+    }
+    
+    section.profile > img {
+        width: 30%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+
+    section.profile {
+        border: 1px solid gray;
+        margin-top: 3%;
+        margin-left:5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        clear:both;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .profile > section.about{
+        display:flex;
+        width: 100%;
+    }
+
+    section#welcome {
+        width:60%;
+    }
+
+    section#homeimg {
+        width: 40%;
+    }
+
+    h1{
+        font-size: 4.5rem;
+        margin-bottom: 1%;
+    }
+
+    .welcome h2 {
+        margin-top: 1%;
+        font-size: 3.5rem;
+        font-weight: lighter;
+        
+    }
+    section.impact h2 {
+        width: 100%;
+        text-align:center;
+        font-size: 3.5rem;
+    }
+    
+    section.impact-points{
+        font-size: 3rem;
+        width: 100%;
+    }
+    
+    section.impact-points section {
+        width:100%;
+        padding: 1%;
+        float: left;
+    }
+    
+    section.impact-points section+section {
+        float: left;
+    }
+    
+    section.impact > p {
+        text-align: center;
+        color: gray;
+        font-size: 2.5rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 870px){
+    section.subscribe label{
+        font-size: 3rem;
+        color: white;
+        width: 50%;
+        float:left;
+    }
+
+    section#welcome {
+        width:67%;
+    }
+
+    section#homeimg {
+        width: 33%;
+    }
+
+    #homeimg img{
+        width: 100%;
+        margin-left:0px;
+    }
+
+    section.home{
+        background: rgb(241,243,245);
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        padding-left: 3%;
+        padding-right:3%;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+    section#homeimg {
+        display: none;
+    }
+    section#welcome {
+        width:100%;
+    }
+
+    .welcome h1{
+        font-size: 4.5rem;
+    }
+    
+    .welcome h2 {
+        font-size: 3.5rem;
+        font-weight: lighter;
+        
+    }
+    
+    .home label {
+        width:100%;
+        font-size: 2rem;
+    }
+    
+    .welcome input#email {
+        width: 75%;
+        height: 2rem;
+    }
+
+    section.home{
+        background: rgb(241,243,245);
+        padding-left: 3%;
+        padding-right:3%;
+        height: 450px;
+    }
+
+    #welcome > img {
+        width:50%;
+        margin-top: 5%;
+        filter: grayscale(100%);
+        display: flex;
+        justify-content: center;
+
+    }
+
+    section.impact{
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+    }
+    
+    section.impact h2 {
+        width: 100%;
+        text-align:center;
+        font-size: 3rem;
+    }
+    
+    section.impact-points{
+        font-size: 2.5rem;
+        width: 100%;
+    }
+    
+    section.impact-points section {
+        width:100%;
+        padding: 1%;
+        float: left;
+    }
+    
+    section.impact-points section+section {
+        float: left;
+    }
+    
+    section.impact > p {
+        text-align: center;
+        color: gray;
+        font-size: 2rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    html {
+        font-size: 52%;;
+    }
+    #welcome > img {
+        width:40%;
+        margin-top: 5%;
+        filter: grayscale(100%);
+    }
+}
+
+@media screen and (max-width: 690px) {
+    html {
+        font-size: 51%;;
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+    html {
+        font-size: 50%;;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    
+    section.team {
+        height: 1500px;
+    }
+
+}
+
+@media screen and (max-width: 555px) {
+    
+    html {
+        font-size: 49%;;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    
+    section.team {
+        height: 1600px;
+    }
+    section.history{
+        height: 1050px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    section.team {
+        height: 1650px;
+    }
+    section.history{
+        height: 1100px;
+    }
+    section.impact {
+        height: 4750px;
+    }
+
+}
+
+@media screen and (max-width: 455px) {
+    
+    html {
+        font-size: 48%;;
+    }
+
+    section.history{
+        height: 1150px;
+    }
+
+    section.impact {
+        height: 525px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    
+    section.history{
+        height: 1200px;
+    }
+
+    section.team {
+        height: 1750px;
+    }
+}
+/*
+@media screen and (max-width:1400px){
+    section.history{
+        background: rgb(241,243,245);
+        height: 900px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    } 
+
+    section.p1{
+        width: 100%;
+        font-size: 2rem;
+        line-height: 4rem;
+        padding-right: 2%;
+       
+    }
+
+    section.p2 {
+        width:100%;
+        font-size: 2rem;
+        line-height: 4rem;
+        padding-right: 2%;
+       
+    }
+    section.partners{
+        padding-left: 5%;
+        padding-right:5%;
+        padding-top:3%;
+        
+    
+    }
+}
+
+@media screen and (max-width:1200px){
+    section.history{
+        background: rgb(241,243,245);
+        height: 1000px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding-left: 4%;
+    } 
+    section.p1, section.p2{
+        width:100%;
+        font-size: 2rem;
+        line-height: 4rem;
+        padding-right: 2%;
+       
+    }
+
+    section.partners{
+        padding-left: 5%;
+        padding-right:5%;
+        padding-top:3%;
+    
+    }
+}
